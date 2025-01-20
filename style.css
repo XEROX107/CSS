@@ -24,7 +24,7 @@
 }
 
 .logo{
-    color: #ff7200;
+    color: #8d3f00;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -76,7 +76,7 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid #ff7200;
+    border: 1px solid #692f00;
     margin-top: 13px;
     color: #fff;
     border-right: none;
@@ -263,3 +263,24 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #ff7200;
 }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    background: linear-gradient(to right, #2b5876, #4e4376);
+    border-radius: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
